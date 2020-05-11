@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="application.Controller2">
+   <children>
+      <Label layoutX="113.0" layoutY="57.0" text="id" />
+      <Label layoutX="105.0" layoutY="99.0" text="ad" />
+      <Label layoutX="105.0" layoutY="144.0" text="soyad" />
+      <Label layoutX="105.0" layoutY="183.0" text="username" />
+      <Label layoutX="105.0" layoutY="229.0" text="passwrod" />
+      <TextField fx:id="txt_id" layoutX="174.0" layoutY="53.0" />
+      <TextField fx:id="txt_ad" layoutX="174.0" layoutY="95.0" />
+      <TextField fx:id="txt_soyad" layoutX="174.0" layoutY="140.0" />
+      <TextField fx:id="txt_username" layoutX="174.0" layoutY="179.0" />
+      <TextField fx:id="txt_meslek" layoutX="174.0" layoutY="225.0" />
+      <Label layoutX="221.0" layoutY="26.0" text="Kullanıcı Detay" />
+   </children>
+</AnchorPane>
